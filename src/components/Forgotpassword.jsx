@@ -17,7 +17,7 @@ const Forgotpassword = () => {
       console.log(data.id);
       setuserId(data.id);
 
-      const response = await axios.patch('https://emsback-4.onrender.com/api/login/sendmailforpasschange', {
+      const response = await axios.patch('https://emsback-5.onrender.com/api/login/sendmailforpasschange', {
         id: data.id
       }, {
         withCredentials: true,

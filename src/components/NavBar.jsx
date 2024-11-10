@@ -17,7 +17,7 @@ const Nav = ({ toggleMenu }) => {
 
   const logoutsystem = async () => {
     try { 
-      const response = await axios.get('https://emsback-4.onrender.com/api/logout',{
+      const response = await axios.get('https://emsback-5.onrender.com/api/logout',{
         withCredentials: true,  
       });  
       Cookies.remove("jwt");
