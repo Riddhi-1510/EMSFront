@@ -14,7 +14,7 @@ const RegisterEmp = () => {
     const token = localStorage.getItem('token'); 
     console.log(token);
     try {
-        const response = await axios.post('https://emsback-5.onrender.com/api/register', {
+        const response = await axios.post('https://emsback-7.onrender.com/api/register', {
             name: data.name,
             mail: data.mail,
             role: data.role
