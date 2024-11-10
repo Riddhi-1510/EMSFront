@@ -37,7 +37,7 @@ const Forgotpassword = () => {
       const token = localStorage.getItem('token');
       console.log(userId, data.currpassword);
 
-      const response = await axios.patch('http://localhost:8000/api/login/changepassword', {
+      const response = await axios.patch('https://emsback-7.onrender.com/api/login/changepassword', {
         id: userId,
         currpassword: data.currpassword,
         newpassword: data.newpassword
